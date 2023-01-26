@@ -1,0 +1,435 @@
+.pagecontainer{
+    /* width: 100vw; */
+    height:100vh;
+    margin: 0px;
+}
+
+.projectscontainer {
+    width: 80%;
+    height: 50%;
+    margin: 0px;
+    left:10%;
+    top: 5%;
+    text-align: center;
+    position: relative;
+    padding: 1rem;
+    border-radius: 25px;
+}
+
+.projectTitle{
+    margin:0;
+    text-align: center;
+    font-size: 2vw;
+    text-decoration: underline;
+
+}
+.projectdiscription{
+    font-size: 1.5vw;
+}
+
+
+
+
+/* GRID CONTAINER */
+
+.grid-container {
+    gap: 5%;
+    background-color: #0c0029;
+    padding: 1%; 
+    display: grid;
+    grid-template-columns: repeat(3, 22vw);
+    grid-auto-rows: 20vw;
+    /* 250px */
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* THREE JS PROJECTS */
+
+    .gridThreeJS {
+      position: relative;
+      background-color: #0c0029;
+      width:100%;
+      height:100%;
+      box-shadow: 5px 5px 30px rgb(221, 255, 0);
+      border-radius: 20px;
+      }
+
+      /* Imagecontainer */
+      .Portal{
+        width: 100%;
+        height: 100%;
+      }
+
+    /* Image */
+      .PortalImg {
+        display: block;
+        width: 100%;
+        height: 100%;
+        border-radius: 20px;
+      }
+
+      /* ThreeJSUnderLay */
+      .THREEJSUnderlay{
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top:10%;
+        opacity: 1;
+        transition: .1s ease;
+        font-size: 2.2vw;
+        text-align: center;
+        
+      }
+
+      /* THREEJSOverlay */
+      .THREEJSOverlay{
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top:0%;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: #3a3a3aab;
+        font-size: 1vw;
+        text-align: center;
+        border-radius: 20px;
+
+      }
+      .gridThreeJS:hover .THREEJSOverlay {
+        opacity: 1;
+      }
+
+      .gridThreeJS:hover .THREEJSUnderlay {
+        opacity: 0;
+      }
+
+      .THREEJSOverlay h2 {
+        font-size: 2vw;
+    }
+      .THREEJSOverlay p {
+        font-size: 1vw;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+/* C# AREA */
+.gridCSharp {
+  position: relative;
+  background-color: #0c0029;
+  width:100%;
+  height:100%;
+  box-shadow: 5px 5px 30px rgb(221, 255, 0); 
+  border-radius: 20px;
+}
+
+/* C# Image Container */
+.CSharp{
+  width: 100%;
+  height: 100%;
+}
+/* C# Image */
+.CSharpImage{
+  display: block;
+  width: 100%;
+  height: 100%; 
+  border-radius: 20px;
+}
+
+
+/* C#UnderLay */
+.CSharpUnderlay{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top:10%;
+  opacity: 1;
+  transition: .1s ease;
+  font-size: 2.5vw;
+  text-align: center;
+      }
+
+
+.CSharpOverlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top:0%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #3a3a3aab;
+  font-size: 2.2vw;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.gridCSharp:hover .CSharpOverlay {
+  opacity: 1;
+}
+.gridCSharp:hover .CSharpUnderlay {
+  opacity: 0;
+}
+
+.CSharpOverlay h2 {
+    font-size: 2vw;
+}
+.CSharpOverlay p {
+    font-size: 1vw;
+}
+
+
+
+
+
+
+
+
+
+/* THRILLCAPITAL AREA */
+.gridThrillCapital {
+  position: relative;
+  background-color: #0c0029;
+  width:100%;
+  height:100%;
+  box-shadow: 5px 5px 30px rgb(221, 255, 0);
+  border-radius: 20px; 
+}
+
+
+.ThrillCapital{
+  width: 100%;
+  height: 100%;
+}
+
+.ThrillCapitalImage{
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px; 
+}
+
+
+.ThrillCapitalOverlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top:0%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #3a3a3aab;
+  font-size: 1vw;
+  text-align: center;
+  border-radius: 20px;
+}
+/* ThrillCapitalUnderLay */
+.ThrillCapitalUnderlay{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top:10%;
+  opacity: 1;
+  transition: .1s ease;
+  font-size: 2.2vw;
+  text-align: center;
+      }
+
+.gridThrillCapital:hover .ThrillCapitalOverlay {
+  opacity: 1;
+}
+.gridThrillCapital:hover .ThrillCapitalUnderlay {
+  opacity: 0;
+}
+
+.ThrillCapitalOverlay h2 {
+    font-size: 2vw;
+}
+.ThrillCapitalOverlay p {
+    font-size: 1vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ReactPortfolio AREA */
+
+.gridReactPortfolio {
+  position: relative;
+  background-color: #0c0029;
+  width:100%;
+  height:100%;
+  box-shadow: 5px 5px 30px rgb(221, 255, 0);
+  border-radius: 20px;
+  
+}
+
+
+.ReactPortfolio{
+  width: 100%;
+  height: 100%;
+}
+
+.ReactPortfolioImage{
+  display: block;
+  width: 100%;
+  height: 100%; 
+  border-radius: 20px;
+}
+
+
+.ReactPortfolioOverlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top:0%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #3a3a3aab;
+  font-size: 1vw;
+  text-align: center;
+  border-radius: 20px;
+}
+
+
+/* ThrillCapitalUnderLay */
+.ReactPortfolioUnderlay{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top:10%;
+  opacity: 1;
+  transition: .1s ease;
+  font-size: 2.2vw;
+  text-align: center;
+      }
+.gridReactPortfolio:hover .ReactPortfolioOverlay {
+  opacity: 1;
+}
+
+.gridReactPortfolio:hover .ReactPortfolioUnderlay {
+  opacity: 0;
+}
+
+.ReactPortfolioOverlay h2 {
+    font-size: 2vw;
+}
+.ReactPortfolioOverlay p {
+    font-size: 1vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* BUTTONS */
+.Demo{
+  background-color: #ffffff;
+  width: 20%;
+  height: 20%;
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 0vw;
+  text-align: center;
+ 
+  display: inline-block;
+  font-size: 1vw;
+  margin: 2px 2px;
+  cursor: pointer;
+  border-radius: 25px;
+} 
+
+.DemoLink{
+   text-decoration: none;
+}
+
+
+
+
+.Code{
+  background-color: #ffffff;
+  width: 20%;
+  height: 20%;
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 0vw;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1vw;
+  margin: 2px 2px;
+  cursor: pointer;
+  border-radius: 25px;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .grid-item {
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 5px solid  #0c0029;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    
+  } */

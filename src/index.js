@@ -2,16 +2,30 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
+
+import { HashRouter, Routes, Route } from "react-router-dom";
+import Threejsdemo from './Components/DemoPages/ThreeJsDemo/ThreeJsPortalDemo'
+
+
+import Level4 from './Components/CertifcatePages/Level4.js'
+import Level5 from './Components/CertifcatePages/Level5.js'
+import Level6 from './Components/CertifcatePages/Level6.js'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <HashRouter>
+ <Routes>
+          <Route path="/" element={<App/>} />
+          <Route path ="/ThreeJsDemo" element={<Threejsdemo />} />
+
+
+          <Route path ="/Level4Page" element={<Level4 />} />
+          <Route path ="/Level5Page" element={<Level5 />} />
+          <Route path ="/Level6Page" element={<Level6 />} />
+
+ </Routes>
+ </HashRouter>
   </React.StrictMode>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();

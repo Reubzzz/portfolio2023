@@ -1,0 +1,64 @@
+.Aboutcontainer {
+/* width: 100vw; */
+height: 100vh;
+margin: 0px;
+
+}
+
+.container{
+    width: 60vw;
+    height: 50vh;
+    margin: 0px;
+    left:20%;
+    top: 25%;
+    /* align-items: center; */
+    text-align: center;
+    /* display: block; */
+    position: relative;
+    background-color: #26016f;
+    /* padding: 1rem; */
+    border-radius: 25px;
+    box-shadow: 1px 1px 55px #ffffff
+    
+    
+}
+.sectiontitle{
+    float: center;
+    margin: 0px;
+    padding: 0.1rem;
+    font-size: 2vw;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+
+
+.Title {
+    width: 50%;
+    height:auto;
+    float: left;
+    margin: 0px;
+    padding-left: 1rem;
+    padding-top: 2rem;
+    
+    
+}
+
+.Title h2 {
+    margin: 0px;
+    font-size: 2.2vw;
+    font-weight: bold;
+    
+    
+}
+
+.blurb {
+    width: 40%;
+    float: right;
+    padding: 1rem;
+}
+
+.blurb p {
+    font-size: 1.2vw;
+    
+}

@@ -1,0 +1,108 @@
+   .Contactpagecontainer{
+    /* width: 100vw; */
+    height:100vh;
+    margin: 0px;
+    
+   }
+.ContactTableContainer
+{
+    
+    width: 50%;
+    height: auto;
+    margin: 0px;
+    left:25%;
+    top: 15%;
+    text-align: center;
+    position: relative;
+    padding: 1rem;
+    border-radius: 25px;
+    border: 1px solid black;
+    background-color: #26016f;
+    box-shadow: 1px 1px 100px #00eaff
+}
+
+
+.ContactMeTitle{
+    margin:0;
+    text-align: center;
+    font-size: 4vw;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.SendMeAMessage{
+    font-size: 1.8vw;
+}
+
+.TableArea{
+    /* width:80%; */
+    height: auto;
+    align-items: center;
+    
+}
+
+.NameTable{
+    padding: 1rem;
+}
+.NameArea {
+    width: 50%;
+    padding: 1rem;
+    border-radius: 20px;
+    text-align: center;
+}
+.EmailTable{
+    padding: 1rem;
+}
+.EmailArea {
+    width: 50%;
+    padding: 1rem;
+    border-radius: 20px;
+    text-align: center;
+}
+.MessageTable{
+    padding: 1rem;
+}
+.MessageArea {
+    Width: 50%;
+    padding: 1rem;
+    border-radius: 20px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+.CVbutton{
+    background-color: #494971;
+    width: 30%;
+    border: none;
+    padding: 20px;
+    text-align: center;
+
+    display: inline-block;
+    font-size: 1.2vw;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 25px;
+    
+}
+
+.CVbutton:hover{
+    box-shadow: 1px 1px 25px #ffffff;
+    transition: 0.8s ease;
+    font-size: 1.3vw;
+}
+
+.CVbutton p {
+    color: white;
+    
+}
+
+.CVbutton a {
+    text-decoration: none
+}

@@ -1,0 +1,67 @@
+.SideNavbarcontainer
+{
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 15%;
+    z-index: 2;
+    width: 10%;
+    float: left;
+    color: #ffffff;
+    background: #0c002a;
+
+
+
+}
+
+.SideNavbaricons {
+    align-items: center;
+    float:left;
+}
+
+.SideNavbaricons ul {
+    display: inline-block;
+}
+
+
+
+ul{
+    padding: 0
+}
+
+
+.LinkdinIconContainer{
+padding: 2rem;
+background-color: rgb(11, 87, 200);
+}
+.GithubIconContainer {
+padding: 2rem;
+background-color: rgb(70, 72, 76);
+}
+.EmailIconContainer {
+padding: 2rem;
+background-color: rgb(0, 121, 28);
+}
+.ResumeIconContainer {
+padding: 2rem;
+background-color: rgb(200, 11, 11);
+}
+
+
+
+.LinkToResume {
+    color: #ffffff;
+}
+.LinkToEmail {
+    color: #ffffff;
+}
+
+.LinkToGitHub {
+    color: #ffffff;
+}
+.LinkToLinkedin {
+    color: #ffffff;
+}
+

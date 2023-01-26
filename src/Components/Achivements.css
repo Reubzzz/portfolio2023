@@ -1,0 +1,301 @@
+ 
+ .AchivementsMainContainer{
+    /* width: 100vw; */
+    height: 100vh;
+    margin: 0px;
+    }
+ 
+ 
+ /* Achivement Area */
+
+
+ .achivementcontainer{
+    width: 60%;
+    height: 50%;
+    margin: 0px;
+    left:20%;
+    top: 10%;
+    text-align: center;
+    position: relative;
+    padding: 1rem;
+}
+.achivementtitle{
+    margin:0;
+    text-align: center;
+    font-size: 2vw;
+    text-decoration: underline;
+}
+.achivementblurb{
+    font-size: 1.5vw;
+}
+
+
+
+/* GRID AREA FOR ACHIEVEMENT */
+
+/* .achivementgrid{
+  
+} */
+
+
+
+.achivementgrid-container {
+    gap: 20px;
+    background-color: #0c0029;
+    display: grid;
+    grid-template-columns: repeat(3, 20vw);
+    grid-auto-rows: 15vw;
+    
+  }
+
+  .achivementgrid-item {
+    background-color: #0c0029;
+    font-size: 1vw;
+    text-align: center;
+    
+    
+  }
+
+
+/* Level 4 */
+.AchivementLevel4grid-item {
+    position: relative;
+    background-color: #0c0029;
+    width:100%;
+    height:100%;
+
+  }
+
+  /* Image */
+  .Achivement4{
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+  }
+
+  /* Level4Overlay */
+  .Achivement4Overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top:0%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #242424c5;
+    font-size: 1vw;
+    text-align: center;
+    border-radius: 20px;
+  }
+
+  .AchivementLevel4grid-item:hover .Achivement4Overlay {
+    opacity: 1;
+  }
+  .Achivement4Overlay p {
+    padding-top: 20%;
+  }
+
+
+
+
+/* Level 5 */
+  .AchivementLevel5grid-item {
+    position: relative;
+    background-color: #0c0029;
+    width:100%;
+    height:100%;
+  }
+
+  /* Image */
+  .Achivement5{
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+  }
+
+  /* Level5Overlay */
+  .Achivement5Overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top:0%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #242424c5;
+    font-size: 1vw;
+    text-align: center;
+    border-radius: 20px;
+  }
+
+  .AchivementLevel5grid-item:hover .Achivement5Overlay {
+    opacity: 1;
+  }
+
+  .Achivement5Overlay p {
+    padding-top: 20%;
+  }
+
+
+
+
+
+
+
+
+
+
+  /* Level 6 */
+  .AchivementLevel6grid-item {
+    position: relative;
+    background-color: #0c0029;
+    width:100%;
+    height:100%;
+  }
+
+  /* Image */
+  .Achivement6{
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+  }
+
+  /* Level6Overlay */
+  .Achivement6Overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top:0%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #242424c5;
+    font-size: 1vw;
+    text-align: center;
+    border-radius: 20px;
+    
+  }
+
+  .AchivementLevel6grid-item:hover .Achivement6Overlay {
+    opacity: 1;
+  }
+
+  .Achivement6Overlay p {
+    padding-top: 20%;
+  }
+
+
+
+
+  /* POSTGRAD */
+  .AchivementPostGradgrid-item {
+    position: relative;
+    background-color: #0c0029;
+    width:100%;
+    height:100%;
+  }
+
+  /* Image */
+  .AchivementPostGrad{
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+  }
+
+  /* PostGradOverlay */
+  .AchivementPostGradOverlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top:0%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #242424c5;
+    font-size: 1vw;
+    text-align: center;
+    border-radius: 20px;
+    
+  }
+
+  .AchivementPostGradgrid-item:hover .AchivementPostGradOverlay {
+    opacity: 1;
+  }
+
+  .AchivementPostGradOverlay p {
+    padding-top: 20%;
+  }
+
+
+
+
+/* Microcred */
+
+  .AchivementMicrocredgrid-item {
+    position: relative;
+    background-color: #0c0029;
+    width:100%;
+    height:100%;
+  }
+
+  /* Image */
+  .AchivementMicrocred{
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+  }
+
+  /* MicrocredOverlay */
+  .AchivementMicrocredOverlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top:0%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #242424c5;
+    font-size: 1vw;
+    text-align: center;
+    border-radius: 20px;
+    
+  }
+
+  .AchivementMicrocredgrid-item:hover .AchivementMicrocredOverlay {
+    opacity: 1;
+  }
+
+  .AchivementMicrocredOverlay p {
+    padding-top: 20%;
+  }
+
+
+
+
+
+
+
+
+
+
+  /* button */
+
+  .ViewCert{
+
+    background-color: #ffffff;
+    width: 80%;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1vw;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 25px;
+  }
+
+  .ViewCertLink {
+    text-decoration: none;
+  }

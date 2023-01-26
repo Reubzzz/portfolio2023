@@ -1,0 +1,77 @@
+.HomeContainer {
+/* width: 100vw; */
+height: 100vh;
+margin: 0;
+} 
+.raincloudcontainer{
+    position:absolute;
+    z-index: 1;
+    left: 50%;
+    top: 40%;
+    
+    
+}
+
+#RainCloud{
+    margin: 0;
+    width: 80% !important;
+    height: auto !important;
+    border-radius: 5%;
+    box-shadow: 5px 10px 60px #2600ff
+    
+  }
+
+
+.textContainer {
+   padding-top: 10%;
+   padding-left: 10%;
+}
+
+ .TitleContainer {
+width:50%;
+height: auto;
+}
+.TitleContainer h2 {
+    margin: 0;
+    font-size: 6vw;
+    font-weight: bold;
+}
+
+.Homeblurb {
+position: relative;
+width: 35vw
+    
+}
+
+.Homeblurb p  {
+    font-size: 2vw;
+}
+
+.Aboutmeshortcut {
+    width: auto;
+    height: auto;
+}
+
+.aboutbutton {
+    background-color: #2b00ff;
+    width: 20%;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2vw;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 25px;
+    
+  }
+.aboutbutton:hover {
+    background-color: #2b00ff;
+    transition: 0.5s ease;
+    box-shadow: 5px 5px 35px #fdfdfd;
+}
+
+
+
