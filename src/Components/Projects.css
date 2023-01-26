@@ -9,7 +9,7 @@
     height: 50%;
     margin: 0px;
     left:10%;
-    top: 5%;
+    top: 1%;
     text-align: center;
     position: relative;
     padding: 1rem;
@@ -38,7 +38,7 @@
     padding: 1%; 
     display: grid;
     grid-template-columns: repeat(3, 22vw);
-    grid-auto-rows: 20vw;
+    grid-auto-rows: 17vw;
     /* 250px */
   }
 

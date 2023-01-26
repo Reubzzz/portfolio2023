@@ -2,12 +2,15 @@
 /* width: 100vw; */
 height: 100vh;
 margin: 0;
+
 } 
 .raincloudcontainer{
     position:absolute;
     z-index: 1;
     left: 50%;
     top: 40%;
+    width: 50%;
+    height: 50%;
     
     
 }
@@ -23,7 +26,7 @@ margin: 0;
 
 
 .textContainer {
-   padding-top: 10%;
+   padding-top: 5%;
    padding-left: 10%;
 }
 
