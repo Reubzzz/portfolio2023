@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.6bfc1a9f.css",
-    "main.js": "/static/js/main.780b18de.js",
-    "static/media/ThrillCapitalImage.png": "/static/media/ThrillCapitalImage.b21ed7ef6ec33cad906a.png",
-    "static/media/PortalImg.PNG": "/static/media/PortalImg.fbd0ea276bf1f234fa0d.PNG",
-    "static/media/Level6.PNG": "/static/media/Level6.eddd091d299fd550d3ac.PNG",
-    "static/media/PortfolioImg.png": "/static/media/PortfolioImg.8650c4a5b619b5be1274.png",
-    "static/media/Level5.PNG": "/static/media/Level5.27a6be02fc4428e5b757.PNG",
-    "static/media/Level4.jpg": "/static/media/Level4.c3a56f6009e76bcd4f93.jpg",
-    "static/media/smoke.png": "/static/media/smoke.6f7eb1aa9b9f657dbf5b.png",
-    "static/media/Resume.pdf": "/static/media/Resume.2c5ed75ead1fb7608aba.pdf",
-    "static/media/2dGame.PNG": "/static/media/2dGame.ed4904bfcf21113da176.PNG",
-    "static/media/AlmostCompleted.png": "/static/media/AlmostCompleted.039bdf01a07cbdf09b8b.png",
-    "index.html": "/index.html",
-    "main.6bfc1a9f.css.map": "/static/css/main.6bfc1a9f.css.map",
-    "main.780b18de.js.map": "/static/js/main.780b18de.js.map"
+    "main.css": "/portfolio2023/static/css/main.6bfc1a9f.css",
+    "main.js": "/portfolio2023/static/js/main.9ba80455.js",
+    "static/media/ThrillCapitalImage.png": "/portfolio2023/static/media/ThrillCapitalImage.b21ed7ef6ec33cad906a.png",
+    "static/media/PortalImg.PNG": "/portfolio2023/static/media/PortalImg.fbd0ea276bf1f234fa0d.PNG",
+    "static/media/Level6.PNG": "/portfolio2023/static/media/Level6.eddd091d299fd550d3ac.PNG",
+    "static/media/PortfolioImg.png": "/portfolio2023/static/media/PortfolioImg.8650c4a5b619b5be1274.png",
+    "static/media/Level5.PNG": "/portfolio2023/static/media/Level5.27a6be02fc4428e5b757.PNG",
+    "static/media/Level4.jpg": "/portfolio2023/static/media/Level4.c3a56f6009e76bcd4f93.jpg",
+    "static/media/smoke.png": "/portfolio2023/static/media/smoke.6f7eb1aa9b9f657dbf5b.png",
+    "static/media/Resume.pdf": "/portfolio2023/static/media/Resume.2c5ed75ead1fb7608aba.pdf",
+    "static/media/2dGame.PNG": "/portfolio2023/static/media/2dGame.ed4904bfcf21113da176.PNG",
+    "static/media/AlmostCompleted.png": "/portfolio2023/static/media/AlmostCompleted.039bdf01a07cbdf09b8b.png",
+    "index.html": "/portfolio2023/index.html",
+    "main.6bfc1a9f.css.map": "/portfolio2023/static/css/main.6bfc1a9f.css.map",
+    "main.9ba80455.js.map": "/portfolio2023/static/js/main.9ba80455.js.map"
   },
   "entrypoints": [
     "static/css/main.6bfc1a9f.css",
-    "static/js/main.780b18de.js"
+    "static/js/main.9ba80455.js"
   ]
 }
