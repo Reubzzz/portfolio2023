@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio2023/static/css/main.6bfc1a9f.css",
+    "main.css": "/portfolio2023/static/css/main.bf3e0a8c.css",
     "main.js": "/portfolio2023/static/js/main.9ba80455.js",
     "static/media/ThrillCapitalImage.png": "/portfolio2023/static/media/ThrillCapitalImage.b21ed7ef6ec33cad906a.png",
     "static/media/PortalImg.PNG": "/portfolio2023/static/media/PortalImg.fbd0ea276bf1f234fa0d.PNG",
@@ -13,11 +13,11 @@
     "static/media/2dGame.PNG": "/portfolio2023/static/media/2dGame.ed4904bfcf21113da176.PNG",
     "static/media/AlmostCompleted.png": "/portfolio2023/static/media/AlmostCompleted.039bdf01a07cbdf09b8b.png",
     "index.html": "/portfolio2023/index.html",
-    "main.6bfc1a9f.css.map": "/portfolio2023/static/css/main.6bfc1a9f.css.map",
+    "main.bf3e0a8c.css.map": "/portfolio2023/static/css/main.bf3e0a8c.css.map",
     "main.9ba80455.js.map": "/portfolio2023/static/js/main.9ba80455.js.map"
   },
   "entrypoints": [
-    "static/css/main.6bfc1a9f.css",
+    "static/css/main.bf3e0a8c.css",
     "static/js/main.9ba80455.js"
   ]
 }
